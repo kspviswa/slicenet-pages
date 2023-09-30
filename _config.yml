@@ -1,1 +1,5 @@
-theme: hacker
+title: Slicelet Python Package
+description: Slicelet Python Package
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
