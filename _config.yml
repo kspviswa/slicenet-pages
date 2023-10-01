@@ -1,5 +1,5 @@
 title: Slicenet Python Package
 description: Slicenet - A mininet-like simulation for 3GPP Network Slices
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker

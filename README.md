@@ -1,7 +1,22 @@
 # Slicenet
 ## A [mininet](http://mininet.org/)-like Simulator for simulating experimentations around Network Slicing
 
-### What can you simulate with **slicenet**
+## What is `slicenet` ?
+
+* A mininet like Simulator for simulating large macro network topologies along with UEs, Application nodes, Access networks, Transport networks, Core network & Data network.
+* Network Slicing policies & optimization logics can be experimented in various topologies and performance of each experiment can be measured in predictable & reproducible manner.
+* Unlike mininet, Slicenet only “simulates” the network. Hence without any real compute & power resources, lot of resource optimization, scheduling, prioritization & capacity models can be experimented in consistent way.
+* By abstracting topology out of the traffic pattern, same topology can be experiments with different traffic pattern. Mobility scenarios can also be easily experimented
+
+## Why `slicenet` ?
+
+- Operators & Researchers have a simple & efficient way to try their experiments without the need to emulate entire physical / virtual topology
+- Borrows the topology, simulation & experiments concepts on all the previous tools and provides a consistent way to experiment & report the findings
+- Based on python and thereby extending itself to popular ML frameworks like TensorFlow / PyTorch to native use ML/DL/NN models as part of the experiments
+- Since Slicenet is just simulation, it can be run in Jupyter notebook setup as well (unlike mininet which is based on linux namespaces). This makes
+- Slicenet extremely useful for researchers to quickly export the findings of the experiments and generates charts / visualizations and share it with wider research community
+
+## What can you simulate with `slicenet`
 
 Optimizations for 
 - Slice Orchestration
@@ -10,16 +25,19 @@ Optimizations for
 - Slice Composition
 - Dynamic Slicing Negotiation techniques can be experimented in various topologies and performance
 
+---
+
 <a href="https://colab.research.google.com/github/kspviswa/slicenet-pages/blob/main/E2E_Slicenet_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 # Installation
 
 ```python
-!pip install slicenet
+pip install slicenet
 ```
 
-# Using Slicenet Simulator to simulate 2 Slices and visualize the Slice Composition and Slice Utilization ratios of NFs
+# Example Usage
+### Using Slicenet Simulator to simulate 2 Slices and visualize the Slice Composition and Slice Utilization ratios of NFs
 
 ## 1. Import Slicenet
 
