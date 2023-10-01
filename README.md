@@ -16,14 +16,16 @@
 - Since Slicenet is just simulation, it can be run in Jupyter notebook setup as well (unlike mininet which is based on linux namespaces). This makes
 - Slicenet extremely useful for researchers to quickly export the findings of the experiments and generates charts / visualizations and share it with wider research community
 
-## What can you simulate with `slicenet`
+## What can you simulate with `slicenet` ?
 
-Optimizations for 
+Slicenet can be used to simulate experimetions around optimizations for 
 - Slice Orchestration
 - Slice Admission
 - Slice SLA Adherence & Violation Avoidance
 - Slice Composition
-- Dynamic Slicing Negotiation techniques can be experimented in various topologies and performance
+- Dynamic Slicing Negotiation techniques etc 
+
+Every experiment can be conducted in various topologies and performance can be measured in consistent fashion.
 
 ---
 
@@ -35,6 +37,7 @@ Optimizations for
 ```
 pip install slicenet
 ```
+---
 
 # Example Usage
 ### Using Slicenet Simulator to simulate 2 Slices and visualize the Slice Composition and Slice Utilization ratios of NFs
@@ -222,8 +225,6 @@ NfMgr.dumpCloudInfo()
 
     edge cloud
     wan cloud
-
-
 
     
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png)
