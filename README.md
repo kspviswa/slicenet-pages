@@ -225,9 +225,9 @@ NfMgr.dumpCloudInfo()
 
 
 <details>
-<summary> Show Output </summary>
+<summary> <h3>Show Output</h3> </summary>
     
-![png](E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png)
+<img src="E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png"> </img>
     
 
 
