@@ -218,18 +218,6 @@ plt.legend(legends)
 plt.show()
 
 NfMgr.dumpCloudInfo()
-```
-
-    edge cloud
-    wan cloud
-
-
-<details>
-<summary> <h3>Show Output</h3> </summary>
-    
-<img src="E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png"> </img>
-    
-
 
     ┌──────────────────────────────────────┬────────────┬──────────┬──────────┬──────────┐
     │ Cloud ID                             │ Name       │   RAM(%) │   CPU(%) │   HDD(%) │
@@ -238,7 +226,11 @@ NfMgr.dumpCloudInfo()
     ├──────────────────────────────────────┼────────────┼──────────┼──────────┼──────────┤
     │ 31fc96e4-aa18-4914-bbe9-786543b345d6 │ wan cloud  │       15 │       50 │    12.34 │
     └──────────────────────────────────────┴────────────┴──────────┴──────────┴──────────┘
+```
 
+<details>
+<summary> <h3>Show Output</h3> </summary>
+<img src="E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png" />
 </details>
 
 ### Visualize Slice Utilization ratio of each NF
