@@ -30,7 +30,7 @@ Optimizations for
 <a href="https://colab.research.google.com/github/kspviswa/slicenet-pages/blob/main/E2E_Slicenet_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-# Installation
+# Installation (available as a [pip package](https://pypi.org/project/slicenet/))
 
 ```python
 pip install slicenet
@@ -224,7 +224,8 @@ NfMgr.dumpCloudInfo()
     wan cloud
 
 
-
+<details>
+<summary> Show Output </summary>
     
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png)
     
@@ -238,6 +239,7 @@ NfMgr.dumpCloudInfo()
     │ 31fc96e4-aa18-4914-bbe9-786543b345d6 │ wan cloud  │       15 │       50 │    12.34 │
     └──────────────────────────────────────┴────────────┴──────────┴──────────┴──────────┘
 
+</details>
 
 ### Visualize Slice Utilization ratio of each NF
 
@@ -273,9 +275,12 @@ plt.legend(labels, bbox_to_anchor=(1.05, 1.0))
 plt.show()
 ```
 
-
+<details>
+<summary> Show Output </summary>
     
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_15_0.png)
+
+</details>
     
 
 
@@ -323,7 +328,9 @@ plt.show()
 ```
 
 
-    
+<details>
+<summary> Show Output </summary>   
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_17_0.png)
+</details>
     
 
