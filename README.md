@@ -32,7 +32,7 @@ Optimizations for
 
 # Installation (available as a [pip package](https://pypi.org/project/slicenet/))
 
-```python
+```
 pip install slicenet
 ```
 
@@ -218,6 +218,17 @@ plt.legend(legends)
 plt.show()
 
 NfMgr.dumpCloudInfo()
+```
+
+    edge cloud
+    wan cloud
+
+
+
+    
+![png](E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png)
+    
+
 
     ┌──────────────────────────────────────┬────────────┬──────────┬──────────┬──────────┐
     │ Cloud ID                             │ Name       │   RAM(%) │   CPU(%) │   HDD(%) │
@@ -226,12 +237,7 @@ NfMgr.dumpCloudInfo()
     ├──────────────────────────────────────┼────────────┼──────────┼──────────┼──────────┤
     │ 31fc96e4-aa18-4914-bbe9-786543b345d6 │ wan cloud  │       15 │       50 │    12.34 │
     └──────────────────────────────────────┴────────────┴──────────┴──────────┴──────────┘
-```
 
-<details>
-<summary> <h3>Show Output</h3> </summary>
-<img src="E2E_Slicenet_example_files/E2E_Slicenet_example_13_1.png" />
-</details>
 
 ### Visualize Slice Utilization ratio of each NF
 
@@ -267,12 +273,9 @@ plt.legend(labels, bbox_to_anchor=(1.05, 1.0))
 plt.show()
 ```
 
-<details>
-<summary> Show Output </summary>
+
     
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_15_0.png)
-
-</details>
     
 
 
@@ -320,9 +323,7 @@ plt.show()
 ```
 
 
-<details>
-<summary> Show Output </summary>   
+    
 ![png](E2E_Slicenet_example_files/E2E_Slicenet_example_17_0.png)
-</details>
     
 
