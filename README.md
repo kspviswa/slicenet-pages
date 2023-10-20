@@ -29,6 +29,35 @@ Every experiment can be conducted in various topologies and performance can be m
 
 ---
 
+### If you find Slicenet to be useful in your research work, please *cite* the following publication:
+
+[1] V. Kumar Skand Priya, A. Dandoushand . gladys . diaz, “Slicenet: A Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management”. TechRxiv, 18-Oct-2023, doi: 10.36227/techrxiv.24311254.v1.
+
+```
+@article{KumarSkandPriya2023,
+author = "Viswanath Kumar Skand Priya and Abdulhalim Dandoush and gladys diaz",
+title = "{Slicenet: A Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management}",
+year = "2023",
+month = "10",
+url = "https://www.techrxiv.org/articles/preprint/Slicenet_A_Simple_and_Scalable_Flow-Level_Simulator_for_Network_Slice_Provisioning_and_Management/24311254",
+doi = "10.36227/techrxiv.24311254.v1"
+```
+
+### Other preprints (arXiv)
+
+```
+@misc{kumarskandpriya2023slicenet,
+      title={Slicenet: a Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management}, 
+      author={Viswanath KumarSkandPriya and Abdulhalim Dandoush and Gladys Diaz},
+      year={2023},
+      eprint={2310.11033},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI}
+}
+```
+
+---
+
 <a href="https://colab.research.google.com/github/kspviswa/slicenet-pages/blob/main/E2E_Slicenet_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
