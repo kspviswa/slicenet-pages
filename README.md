@@ -31,6 +31,22 @@ Every experiment can be conducted in various topologies and performance can be m
 
 ### If you find Slicenet to be useful in your research work, please *cite* the following publication:
 
+```
+@INPROCEEDINGS{10323887,
+  author={KumarSkandPriya, Viswanath and Dandoush, Abdulhalim and Diaz, Gladys},
+  booktitle={2023 International Symposium on Networks, Computers and Communications (ISNCC)}, 
+  title={Slicenet: a Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ISNCC58260.2023.10323887}}
+```
+
+### Other preprints
+
+#### TechRxiv
+
 [1] V. Kumar Skand Priya, A. Dandoushand . gladys . diaz, “Slicenet: A Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management”. TechRxiv, 18-Oct-2023, doi: 10.36227/techrxiv.24311254.v1.
 
 ```
@@ -43,7 +59,7 @@ url = "https://www.techrxiv.org/articles/preprint/Slicenet_A_Simple_and_Scalable
 doi = "10.36227/techrxiv.24311254.v1"
 ```
 
-### Other preprints (arXiv)
+#### arXiv
 
 ```
 @misc{kumarskandpriya2023slicenet,
